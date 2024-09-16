@@ -1,8 +1,6 @@
-//
-// Created by Admin on 16/09/2024.
-//
-
 #ifndef SIZEOF_TYPES_H
 #define SIZEOF_TYPES_H
+
+void sizeof_types();
 
 #endif //SIZEOF_TYPES_H

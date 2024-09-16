@@ -1,8 +1,6 @@
-//
-// Created by Admin on 16/09/2024.
-//
-
 #ifndef BONJOUR_H
 #define BONJOUR_H
+
+void bonjour();
 
 #endif //BONJOUR_H
