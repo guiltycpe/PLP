@@ -1,3 +1,16 @@
+"""
+boucles.py
+
+Objectif :
+Dessine un triangle en alternant (* et #) pour le remplissage avec une taille saisi par l'utilisateur
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 def for_triangle() :
     compteur = int(input("Entrez la taille du triangle : "))
 

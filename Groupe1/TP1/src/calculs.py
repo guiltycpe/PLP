@@ -1,3 +1,16 @@
+"""
+calculs.py
+
+Objectif :
+Ce fichier effectue différentes opérations en fonction d'un opérateur saisi par l'utilisateur
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 num1 = int(input("Entrez le premier entier: "))
 num2 = int(input("Entrez le deuxième entier: "))
 op = input("Entrez un opérateur (+, -, *, /, %, &, |, ~): ")

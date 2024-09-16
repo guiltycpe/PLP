@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "variables.h"
 
+/*
+* variables.c
+*
+* Objectif :
+* Fichier qui permet de tester l'affichage des différents types de variables
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void variables() {
     char c = 'A';
     signed char sc = -120;

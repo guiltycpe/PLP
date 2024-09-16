@@ -1,3 +1,16 @@
+"""
+binaire.py
+
+Objectif :
+Convertir et afficher un nombre entier en format binaire
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 num = int(input("Entrez un nombre entier: "))
 binaire = []
 

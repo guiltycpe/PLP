@@ -1,3 +1,16 @@
+"""
+opérateurs.py
+
+Objectif :
+Fichier qui permet de tester l'affichage des différents types de variables
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 entier = 42
 flottant = 3.14159
 chaine = "Bonjour, le monde!"

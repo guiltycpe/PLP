@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "boucles.h"
 
+/*
+* boucles.c
+*
+* Objectif :
+* Dessine un triangle en alternant (* et #) pour le remplissage avec une taille saisi par l'utilisateur
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void for_triangle() {
     int compteur, i, j;
     printf("Entrez la taille du triangle : ");

@@ -1,3 +1,16 @@
+"""
+opérateurs.py
+
+Objectif :
+Fichier qui permet de tester différentes opérations
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 a = 16
 b = 3
 

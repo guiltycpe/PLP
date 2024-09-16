@@ -1,3 +1,16 @@
+"""
+cercles.py
+
+Objectif :
+Calcule l'aire et le périmètre d'un cercle de rayon donné par l'utilisateur
+
+Auteur :
+Mohamed AIT EL HADJ
+
+Date :
+16/09/2024
+"""
+
 pi = 3.14159
 print("Saisir la rayon du cercle : ")
 rayon = int(input())

@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "cercle.h"
 
+/*
+* cercle.c
+*
+* Objectif :
+* Calcule l'aire et le périmètre d'un cercle de rayon donné par l'utilisateur
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void cercle(void)
 {
     float pi = 3.14159;

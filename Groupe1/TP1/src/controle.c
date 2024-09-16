@@ -1,6 +1,20 @@
 #include <stdio.h>
 #include "controle.h"
 
+/*
+* controle.c
+*
+* Objectif :
+* Fichier qui permet d'afficher les nombres de 1 à 1000 qui sont divisibles par 4 mais pas par 6, les nombres de 1 à 1000
+* qui sont pairs et divisibles par 8 et les nombres de 1 à 1000 qui sont divisibles par 5 ou 7, mais ne sont pas divisibles par 10.
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void controle() {
     int i;
 

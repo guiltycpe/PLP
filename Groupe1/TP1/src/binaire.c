@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "binaire.h"
 
+/*
+* binaire.c
+*
+* Objectif :
+* Convertir et afficher un nombre entier en format binaire
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void binaire() {
     int num, i;
     int binaire[32];

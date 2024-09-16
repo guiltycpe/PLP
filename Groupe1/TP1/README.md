@@ -1,15 +1,7 @@
 # Bibliothèques
-* 
-*
-
-# Références
-*
-*
+* stdio.h
+* sys (python)
 
 # Difficulté
-*
-
-# Commentaires
-* 
-* 
+* Facile
 

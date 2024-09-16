@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "calculs.h"
 
+/*
+* calculs.c
+*
+* Objectif :
+* Ce fichier effectue différentes opérations en fonction d'un opérateur saisi par l'utilisateur
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void calculs() {
     int num1, num2;
     char op;

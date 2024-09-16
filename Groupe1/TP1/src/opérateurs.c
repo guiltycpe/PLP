@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "operateur.h"
 
+/*
+* opérateurs.c
+*
+* Objectif :
+* Fichier qui permet de tester différentes opérations
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void operateur() {
     int a = 16;
     int b = 3;

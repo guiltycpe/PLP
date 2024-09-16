@@ -9,6 +9,18 @@
 #include "calculs.h"
 #include "binaire.h"
 
+/*
+* main.c
+*
+* Objectif :
+* Ce fichier permet de lancer les différentes fonctions
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
 
 int main(void)
 {

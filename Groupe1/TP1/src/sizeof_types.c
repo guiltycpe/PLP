@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "sizeof_types.h"
 
+/*
+* sizeof_types.c
+*
+* Objectif :
+* Fichier qui affiche la taille en octets de différents types de variables
+*
+* Auteur :
+* Mohamed AIT EL HADJ
+*
+* Date :
+* 16/09/2024
+*/
+
 void sizeof_types()
 {
     printf("Taille en octets d'un char : %d \n", sizeof(char));
