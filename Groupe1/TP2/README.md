@@ -1,15 +1,6 @@
 # Bibliothèques
-* 
-*
-
-# Références
-*
-*
+* stdio.h
+* math.h
 
 # Difficulté
-*
-
-# Commentaires
-* 
-* 
-
+* Moyen
