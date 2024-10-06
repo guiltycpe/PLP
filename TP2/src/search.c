@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+ * search.c
+ *
+ * Objectif :
+ * Rechercher une phrase dans un fichier
+ *
+ * Auteur :
+ * Mohamed AIT EL HADJ
+ */
+
 #define MAX_LINE 1000
 
 int countOccurrences(char *line, char *phrase) {

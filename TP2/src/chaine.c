@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/*
+* chaine.c
+*
+ * Objectif :
+* Manipuler des chaines de caracteres
+*
+ * Auteur :
+* Mohamed AIT EL HADJ
+ */
+
 int lenChaine(char* chaine)
 {
     int i, longueur = 0;

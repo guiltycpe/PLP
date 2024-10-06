@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+ * student.c
+ *
+ * Objectif :
+ * Gérer les informations des étudiants
+ *
+ * Auteur :
+ * Rayane MERLIN
+ */
+
 #define MAX_NOTES 3
 #define MAX_ETUDIANTS 5  // Nombre d'étudiants
 

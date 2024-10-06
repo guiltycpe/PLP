@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include "sphere.h"
 
+/*
+* main.c
+*
+ * Objectif :
+* Calculer le volume et la surface d'une sphère
+*
+ * Auteur :
+* Rayane MERLIN
+ */
+
 int main() {
     float rayon = 5.0;
     float volume = calculer_volume(rayon);

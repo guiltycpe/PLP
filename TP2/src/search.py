@@ -1,3 +1,9 @@
+"""
+    Nom: search.py
+    Objectif: Rechercher une phrase dans un fichier
+    Auteur: Mohamed AIT EL HADJ
+"""
+
 def count_occurrences(line, phrase):
     count = 0
     start = 0

@@ -3,6 +3,18 @@
 
 #include <stdio.h> 
 
+/*
+* aire.c
+*
+* Objectif :
+* Calculer l'aire d'un cercle
+*
+* Auteur :
+* Rayane MERLIN
+*
+* Date : 16/09/2024
+ */
+
 // Fonction pour calculer l'aire d'un cercle
 float calculer_aire(float rayon) {  
     // Utilisation de la constante pi de la bibliothèque mathématique

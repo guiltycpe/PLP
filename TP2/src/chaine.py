@@ -1,3 +1,9 @@
+"""
+    Nom: chaine.py
+    Objet: Manipuler les chaînes de caractères
+    Auteur: Mohamed AIT EL HADJ
+"""
+
 def lenChaine(chaine):
     longueur = 0
     for char in chaine:

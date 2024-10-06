@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/*
+ * color.c
+ *
+ * Objectif :
+ * Compter les occurrences de couleurs distinctes
+ *
+ * Auteur :
+ * Rayane MERLIN
+ */
+
 #define MAX_COLORS 100
 #define MAX_DISTINCT_COLORS 100
 

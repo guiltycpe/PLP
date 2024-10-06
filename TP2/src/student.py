@@ -1,3 +1,9 @@
+"""
+    Nom : student.py
+    Objectif : Gérer les informations des étudiants
+    Auteur : Rayane MERLIN
+"""
+
 class Student :
     
     def __init__(self, nom: str, prenom: str, adresse: str, age: int, notes: list[float] = []) -> None:

@@ -1,5 +1,11 @@
 from random import randint
 
+"""
+    Nom : color.py
+    Objectif : Créer une liste de 100 instances de la classe Color et compter les occurrences de chaque couleur
+    Auteur : Rayane MERLIN
+"""
+
 class Color:
     def __init__(self, R: int, G: int, B: int, alpha: float = None) -> None:
         self.R: int = R
