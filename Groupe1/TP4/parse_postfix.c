@@ -27,8 +27,8 @@ int priority(char op) {
 }
 
 char *parse_postfix(char *infix) {
-    Pile postfix;
-    initPile(&postfix);
+    Pile operateurs;
+    initPile(&operateurs);
     int i = 0, j = 0;
     char *result = (char *)malloc(sizeof(char) * 100);
 
@@ -38,35 +38,47 @@ char *parse_postfix(char *infix) {
             j++;
             i++;
         } else if (infix[i] == '+' || infix[i] == '-' || infix[i] == '*' || infix[i] == '/') {
-            char op = sommet(&postfix);
-            if (!estVide(&postfix) || priority(op) >= priority(infix[i])) {
-                empiler(&postfix, infix[i]);
-            } else {
-                while (!estVide(&postfix) && priority(op) >= priority(infix[i])) {
-                    result[j] = depiler(&postfix);
-                    j++;
-                }
+            while (!estVide(&operateurs) && priority(sommet(&operateurs)) >= priority(infix[i])) {
+                result[j] = depiler(&operateurs);
+                j++;
+            }
+            empiler(&operateurs, infix[i]);
+            i++;
+        } else if (infix[i] == '(') {
+            empiler(&operateurs, infix[i]);
+            i++;
+        } else if (infix[i] == ')') {
+            while (!estVide(&operateurs) && sommet(&operateurs) != '(') {
+                result[j] = depiler(&operateurs);
+                j++;
+            }
+            if (!estVide(&operateurs) && sommet(&operateurs) == '(') {
+                depiler(&operateurs);
             }
             i++;
         } else {
             printf("Caractère non reconnu.\n");
+            i++;
         }
     }
 
-    while (!estVide(&postfix)) {
-        result[j] = depiler(&postfix);
+    while (!estVide(&operateurs)) {
+        result[j] = depiler(&operateurs);
         j++;
     }
     result[j] = '\0';
 
     return result;
 }
-
+/*
 int main() {
-    char infix[] = "2+3*4-5";
+    char infix[100];
+    printf("Entrez une expression arithmétique en notation infixée: ");
+    scanf("%s", infix);
     char *postfix = parse_postfix(infix);
     printf("Infix: %s\n", infix);
     printf("Postfix: %s\n", postfix);
     free(postfix);
     return 0;
 }
+*/

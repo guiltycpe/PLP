@@ -40,7 +40,6 @@ void empiler(Pile *p, char valeur) {
     }
 
     p->sommet = nouveau;
-    printf("%c a été empilé.\n", valeur);
 }
 
 // Fonction pour dépiler un élément
@@ -60,7 +59,6 @@ char depiler(Pile *p) {
     }
 
     free(aSupprimer);
-    printf("%c a été dépilé.\n", valeur);
     return valeur;
 }
 
